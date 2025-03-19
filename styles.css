@@ -5,32 +5,38 @@ body {
     color: #333;
     margin: 0;
     padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 /* Styling for the main heading */
 h1 {
     color: #2c3e50;
     text-align: center;
+    margin-bottom: 20px;
 }
 
-/* Styling for subheadings */
-h2 {
-    color: #34495e;
-    margin-top: 20px;
-}
-
-/* Styling for paragraphs */
-p {
-    line-height: 1.6;
+/* Box model styling for the recipe list container */
+.recipe-list {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 300px;
 }
 
 /* Styling for the list items */
-ul, ol {
-    margin-left: 20px;
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
 
 li {
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 /* Styling for links */
@@ -38,11 +44,14 @@ a {
     text-decoration: none;
     color: #3498db;
     font-weight: bold;
-    display: inline-block;
-    margin-top: 20px;
+    display: block;
+    padding: 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
 }
 
 a:hover {
+    background-color: #ecf0f1;
     color: #2980b9;
 }
 
