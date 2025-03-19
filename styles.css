@@ -13,15 +13,24 @@ h1 {
     text-align: center;
 }
 
+/* Styling for subheadings */
+h2 {
+    color: #34495e;
+    margin-top: 20px;
+}
+
+/* Styling for paragraphs */
+p {
+    line-height: 1.6;
+}
+
 /* Styling for the list items */
-ul {
-    list-style-type: none;
-    padding: 0;
-    text-align: center;
+ul, ol {
+    margin-left: 20px;
 }
 
 li {
-    margin: 10px 0;
+    margin-bottom: 5px;
 }
 
 /* Styling for links */
@@ -29,8 +38,18 @@ a {
     text-decoration: none;
     color: #3498db;
     font-weight: bold;
+    display: inline-block;
+    margin-top: 20px;
 }
 
 a:hover {
     color: #2980b9;
+}
+
+/* Styling for images */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
 }
